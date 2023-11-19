@@ -7,9 +7,6 @@ header{
     color:white;
     padding: 20px;
 }
-#des{
-  color: #ffffff;
-}
 #flip{
   text-align: center;
 }
@@ -34,6 +31,7 @@ header{
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+  
 }
 
 .flip-card-front, .flip-card-back {
@@ -54,6 +52,7 @@ header{
   background-color: #2980b9;
   color: white;
   transform: rotateY(180deg);
+ 
 }
 
 nav ul li{
@@ -61,11 +60,32 @@ nav ul li{
 }
 nav ul li a{
     padding: 20px;
-    color:blanchedalmond;
+    color:rgb(255, 153, 0);
     font-size: 20px;
     text-decoration: none;
 }
+nav1  a{
+  
+  padding: 20px;
+  color:rgb(255, 153, 0);
+  font-size: 20px;
+  text-decoration: none;
+}
+nav2  a{
 
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+ padding-bottom: 50px;
+ margin-bottom: 50px;
+ 
+}
+
+nav4  a{
+
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+  text-decoration: none;
+}
 background image{
   height: 200px;
   width:200px;
@@ -92,35 +112,15 @@ background image{
     padding: 10px;
     margin: 50px;
 }
-a:link {
-  color: rgb(255, 255, 255)56);
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: rgb(255, 166, 0);
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: rgb(255, 153, 0)(255, 9, 9);
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
-  color: rgb(255, 255, 255);
-  background-color: transparent;
-
-}
 /* Float four columns side by side */
 .column {
     float: left;
     width: 30%;
-    padding: 0 10px;
+    
   }
   
   /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 10px;}
+  .row {margin:  10px;}
   
   /* Clear floats after the columns */
   .row:after {
@@ -142,9 +142,9 @@ a:active {
   .card {
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 500px;
+    max-width: 300px;
     background-image: url('https://wallpapercave.com/w/wp125g71225.jpg');;
-    padding: 30px;
+    padding: 20px;
     margin: 10px;
     text-align: center;
     
@@ -205,6 +205,9 @@ a:active {
     width: 100%;
     font-size: 18px;
   }
+  #des{
+    color: #ffffff;
+  }
   
   a {
     text-decoration: none;
@@ -216,9 +219,20 @@ a:active {
     opacity: 0.7;
   }
 
+  
+
+  #Contact{
+    font-size: 30px;
+    color: #ffffff;
+   
+ 
+
+    
+  }
+
 footer{
    background-image: url('https://wallpapercave.com/w/wp9112916.jpg');;
-    background-color: black;
+
     color:azure;
     padding: 30px;
 }
